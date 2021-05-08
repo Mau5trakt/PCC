@@ -1,0 +1,12 @@
+git init #initializate git in the actual directory
+git status # check the status of the directory 
+git add (file.extension) #add a file 
+git commit -m "mesage" #send the file added previusly to the repository and put a little msg called "commit"
+git log --oneline #see the versions of commits 
+git checkout {code of the commit or name of branch} #go to a past version of a file by the code of commit or go to a diferent branch in the repository 
+git log # show all the commits made in the repository and the complete code of them 
+git show # show the last change in the last commit 
+git add . #add all the modified files of the current directory to the git 
+git reset --hard --soft {code of the commit} #delete the last commit with that code the --hard will delete all the commit and changes in this. 
+git branch #to see the branches in the repository  
+	
